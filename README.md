@@ -2,7 +2,7 @@
 
 [![license](https://img.shields.io/github/license/icgw/dotfiles)](LICENSE)
 
-> This is dotfiles of Guowei Chen.
+> The dotfiles of Guowei Chen.
 
 ## Install
 
@@ -17,7 +17,7 @@ $ apt-get install git
 This is only a documentation package.
 
 ```sh
-$ source install.sh
+$ git clone https://github.com/icgw/dotfiles.git
 ```
 
 ## Maintainer

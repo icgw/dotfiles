@@ -8,5 +8,5 @@ colorscheme PaperColor
 let g:airline#extensions#enabled = 1
 let g:airline_theme              = 'onedark'
 
-" vim template setting
-let g:templates_directory = '${HOME}/.config/nvim/templates'
+" add one space in the head when commenting
+let g:NERDSpaceDelims = 1
