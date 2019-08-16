@@ -1,0 +1,14 @@
+[user]
+	name = Guowei Chen
+	email = icgw@outlook.com
+	signingkey = ~/.ssh/id_ed25519
+[core]
+	editor = vim
+	excludesfile = ~/.gitignore_global
+	autocrlf = input
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
+[tag]
+	gpgSign = true
