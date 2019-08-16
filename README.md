@@ -6,10 +6,10 @@
 
 ## Install
 
-This project uses [curl](https://curl.haxx.se/) and  [Git](https://git-scm.com/). Go check them out if you don't have them locally installed.
+This project uses [curl](https://curl.haxx.se/). Go check them out if you don't have them locally installed.
 
 ```sh
-$ apt-get install git
+$ sudo apt-get install curl
 ```
 
 ## Usage
