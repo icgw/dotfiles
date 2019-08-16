@@ -6,7 +6,7 @@
 
 ## Install
 
-This project uses [Git](https://git-scm.com/). Go check them out if you don't have them locally installed.
+This project uses [curl](https://curl.haxx.se/) and  [Git](https://git-scm.com/). Go check them out if you don't have them locally installed.
 
 ```sh
 $ apt-get install git
@@ -17,7 +17,7 @@ $ apt-get install git
 This is only a documentation package.
 
 ```sh
-$ git clone https://github.com/icgw/dotfiles.git
+$ curl -sL https://raw.githubusercontent.com/icgw/dotfiles/master/init | sh
 ```
 
 ## Maintainer

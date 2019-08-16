@@ -1,9 +1,21 @@
 #!/bin/sh
 
+sudo apt-get install git
+sudo apt-get install curl
+
 cd $HOME
 git init
 git remote add -t master -f origin https://github.com/icgw/dotfiles.git
+git checkout master
 
 curl -sL install-node.now.sh/lts | bash
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+# add ppa and install neovim
+sudo add-apt-respository ppa:neovim-ppa/stable
+sudo apt-get update
+sudo apt-get install neovim
+
+# delete the file not required
+rm README.md LICENSE init
