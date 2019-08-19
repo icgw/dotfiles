@@ -5,6 +5,8 @@ set hlsearch
 
 set hidden
 
+set spell spelllang=en_us
+
 " display the line number
 set number
 

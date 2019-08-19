@@ -8,3 +8,6 @@ set ruler
 
 " show command in the last line of the screen
 set showcmd
+
+" hidden default text mode as the airline already display
+set noshowmode
