@@ -2,6 +2,10 @@
 call plug#begin('~/.local/share/nvim/plugged')
 " Make sure you use single quotes
 
+" snippets and its engine
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+
 " intellisense engine
 Plug 'neoclide/coc.nvim', { 'branch' : 'release' }
 

@@ -1,4 +1,10 @@
-#!/bin/sh
+#! /bin/sh
+#
+# ubuntu_16_04.sh
+# Copyright (C) 2019 Guowei Chen <icgw@outlook.com>
+#
+# Distributed under terms of the GPL license.
+#
 
 USER=`whoami`
 sudo apt-get --yes install git
@@ -24,8 +30,11 @@ sudo apt-get --yes install neovim
 # delete the file not required
 rm README.md LICENSE init
 
+# install zsh
 sudo apt-get --yes zsh
+# install zsh configuration manager: oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 chsh -s `which zsh`
 
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${HOME}/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
