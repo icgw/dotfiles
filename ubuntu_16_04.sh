@@ -35,10 +35,11 @@ sudo apt-get --yes install zsh
 # install zsh configuration manager: oh-my-zsh
 git clone git://github.com/robbyrussell/oh-my-zsh.git ${HOME}/.oh-my-zsh
 
-sudo chsh -s $(which zsh)
+BIN_ZSH=`which zsh`
+sudo chsh -s ${BIN_ZSH}
 
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${HOME}/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
-git clone https://github.com/zsh-users/zsh-autosuggestions.git ${HOME}/.oh-my-zsh/custome/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions.git ${HOME}/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 
 # install python3-pip
 sudo apt-get --yes install python3-pip
