@@ -35,9 +35,6 @@ sudo apt-get --yes install zsh
 # install zsh configuration manager: oh-my-zsh
 git clone git://github.com/robbyrussell/oh-my-zsh.git ${HOME}/.oh-my-zsh
 
-BIN_ZSH=`which zsh`
-sudo chsh -s ${BIN_ZSH}
-
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${HOME}/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions.git ${HOME}/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 
@@ -46,5 +43,5 @@ sudo apt-get --yes install python3-pip
 # install python3 inside of nvim
 pip3 install pynvim
 
+# install tmux
 sudo apt-get --yes install tmux
-tmux source-file ${HOME}/.tmux.conf
