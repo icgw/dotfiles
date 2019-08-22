@@ -33,9 +33,9 @@ rm README.md LICENSE init
 # install zsh
 sudo apt-get --yes install zsh
 # install zsh configuration manager: oh-my-zsh
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+git clone git://github.com/robbyrussell/oh-my-zsh.git ${HOME}/.oh-my-zsh
 
-sudo chsh -s `which zsh`
+sudo chsh -s $(which zsh)
 
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${HOME}/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions.git ${HOME}/.oh-my-zsh/custome/plugins/zsh-autosuggestions
@@ -44,3 +44,6 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git ${HOME}/.oh-my-zs
 sudo apt-get --yes install python3-pip
 # install python3 inside of nvim
 pip3 install pynvim
+
+sudo apt-get --yes install tmux
+tmux source-file ${HOME}/.tmux.conf
