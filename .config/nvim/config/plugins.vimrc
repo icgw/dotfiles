@@ -13,3 +13,6 @@ let g:airline_theme              = 'onedark'
 
 " add one space in the head when commenting
 let g:NERDSpaceDelims = 1
+
+" use python version 3.x
+let g:UltiSnipsUsePythonVersion = 3

@@ -17,7 +17,7 @@ $ sudo apt-get install curl
 This is only a documentation package.
 
 ```sh
-$ curl -sL https://raw.githubusercontent.com/icgw/dotfiles/master/ubuntu | sh
+$ curl -sL https://raw.githubusercontent.com/icgw/dotfiles/master/ubuntu_16_04.sh | sh
 ```
 
 ## Maintainer
@@ -26,4 +26,4 @@ $ curl -sL https://raw.githubusercontent.com/icgw/dotfiles/master/ubuntu | sh
 
 ## License
 
-[GPL-3.0](LICENSE) © Guowei Chen
+[GPLv3](LICENSE) © Guowei Chen

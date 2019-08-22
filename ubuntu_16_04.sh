@@ -31,7 +31,7 @@ sudo apt-get --yes install neovim
 rm README.md LICENSE init
 
 # install zsh
-sudo apt-get --yes zsh
+sudo apt-get --yes install zsh
 # install zsh configuration manager: oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
@@ -39,3 +39,8 @@ chsh -s `which zsh`
 
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${HOME}/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions.git ${HOME}/.oh-my-zsh/custome/plugins/zsh-autosuggestions
+
+# install python3-pip
+sudo apt-get --yes install python3-pip
+# install python3 inside of nvim
+pip3 install pynvim
