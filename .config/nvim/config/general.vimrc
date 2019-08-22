@@ -37,3 +37,7 @@ set fileencoding=utf-8 nobomb
 " highlight the over length content (more than 120)
 highlight OverLength ctermbg=darkred ctermfg=white
 match OverLength /\%121v.\+/
+
+" show invisible characters
+set listchars=tab:▸\ ,trail:·,eol:¬,nbsp:_
+set list
