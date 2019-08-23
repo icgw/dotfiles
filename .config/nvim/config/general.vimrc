@@ -29,6 +29,8 @@ set softtabstop=2
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
+" allow fileformat and fileencoding be changed
+set modifiable
 " always utf-8
 set encoding=utf-8 nobomb
 set termencoding=utf-8 nobomb
