@@ -2,10 +2,10 @@ filetype plugin indent on
 
 " plugins setting configuration
 set background=dark
-colorscheme PaperColor
+silent! colorscheme PaperColor
 
 " set the path of templates directory
-let g:templates_directory = [ '$HOME/.config/nvim/templates/' ]
+let g:templates_directory = [ '${HOME}/.config/nvim/templates/' ]
 
 " airline setting
 let g:airline#extensions#enabled = 1
