@@ -18,8 +18,6 @@ This is only a dotfiles package, including some configurations.
 
 ```sh
 $ curl -sL https://raw.githubusercontent.com/icgw/dotfiles/master/ubuntu_16_04.sh | sh
-$ sudo chsh -s `which zsh`
-$ tmux source-file ${HOME}/.tmux.conf
 ```
 
 ## Maintainer
