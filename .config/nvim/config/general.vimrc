@@ -5,7 +5,7 @@ set hlsearch
 
 set hidden
 
-set spell spelllang=en_us
+" set spell spelllang=en_us
 
 " display the line number
 set number
@@ -16,6 +16,7 @@ set cursorline
 set nobackup
 set nowritebackup
 set noswapfile
+set nowrap
 
 " tab stuff
 set smarttab
