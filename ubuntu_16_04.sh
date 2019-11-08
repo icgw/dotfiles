@@ -18,10 +18,6 @@ git checkout master
 sudo chown -hR ${USER} /usr/local
 curl -sL install-node.now.sh/lts | bash
 
-# install plug.vim
-# curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
-#   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
 # add ppa and install neovim
 sudo add-apt-repository ppa:neovim-ppa/stable
 sudo apt-get update
