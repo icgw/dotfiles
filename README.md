@@ -17,7 +17,7 @@ $ sudo apt-get install curl
 This is only a dotfiles package, including some configurations.
 
 ```sh
-$ curl -sL https://raw.githubusercontent.com/icgw/dotfiles/master/ubuntu_16_04.sh | sh
+$ curl -sL https://raw.githubusercontent.com/icgw/dotfiles/gc/ubuntu_16_04.sh | sh
 ```
 
 ## Maintainer

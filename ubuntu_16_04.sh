@@ -11,8 +11,8 @@ sudo apt-get --yes install git
 
 cd ${HOME}
 git init
-git remote add -t master -f origin https://github.com/icgw/dotfiles.git
-git checkout master
+git remote add -t gc -f origin https://github.com/icgw/dotfiles.git
+git checkout gc
 
 # install Node.js to /usr/local
 sudo chown -hR ${USER} /usr/local
