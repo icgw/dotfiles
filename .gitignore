@@ -20,3 +20,4 @@ Public/
 .zshrc.pre-oh-my-zsh
 
 .ssh/id_rsa
+.ssh/known_hosts
