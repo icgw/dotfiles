@@ -39,3 +39,15 @@ pip3 install pynvim
 
 # install tmux
 brew install tmux
+
+# install basictex
+brew cask install basictex
+# or install mactex-no-guii
+# brew cask install mactex-no-gui
+
+# sudo tlmgr update --self --repository http://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/tlnet
+# sudo tlmgr install latexmk --repository http://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/tlnet
+
+# When .. ! LaTex Error: File `nth.sty' not found.
+# See nth.sty is in package genmisc then
+# tlmgr install genmisc
