@@ -57,3 +57,6 @@ pip3 install pynvim
 
 # or install mactex-no-guii
 # brew cask install mactex-no-gui
+
+# install GnuPG 2
+brew install gpg2

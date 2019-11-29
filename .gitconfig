@@ -1,5 +1,10 @@
 [user]
 	name = icgw
 	email = icgw@outlook.com
+	signingkey = 80A74DEE7D2B8368
 [core]
 	editor = nvim
+	excludesfile = ~/.gitignore_global
+	autocrlf = input
+[commit]
+	gpgsign = true
