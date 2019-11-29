@@ -77,6 +77,8 @@ plugins=(
 source ${ZSH}/oh-my-zsh.sh
 
 # User configuration
+# GPG_TTY environment variable should hold the path to the TTY device for the current interactive shell
+export GPG_TTY=$(tty)
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
