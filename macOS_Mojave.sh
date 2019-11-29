@@ -41,7 +41,7 @@ brew install python3
 pip3 install pynvim
 
 # install tmux
-brew install tmux
+# brew install tmux
 
 #################################################
 # install basictex

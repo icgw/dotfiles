@@ -91,8 +91,8 @@ export LANG=en_US.UTF-8
 # fi
 
 # default loading tmux
-[[ $- != *i* ]] && return
-[[ -z "$TMUX" ]] && exec tmux
+# [[ $- != *i* ]] && return
+# [[ -z "$TMUX" ]] && exec tmux
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"

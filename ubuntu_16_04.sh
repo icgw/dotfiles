@@ -43,4 +43,4 @@ sudo apt-get --yes install python3-pip
 pip3 install pynvim
 
 # install tmux
-sudo apt-get --yes install tmux
+# sudo apt-get --yes install tmux
