@@ -44,3 +44,6 @@ set colorcolumn=+1
 " show invisible characters
 set listchars=tab:▸\ ,trail:·,eol:¬,nbsp:_
 set list
+
+" Place C++ scope declarations 0 characters from the indent of the block they are in
+set cinoptions=g0

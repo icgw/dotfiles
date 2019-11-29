@@ -41,6 +41,3 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git ${HOME}/.oh-my-zs
 sudo apt-get --yes install python3-pip
 # install python3 inside of nvim
 pip3 install pynvim
-
-# install tmux
-sudo apt-get --yes install tmux

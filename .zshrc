@@ -11,7 +11,3 @@ plugins=(
 )
 
 source ${ZSH}/oh-my-zsh.sh
-
-# default loading tmux
-[[ $- != *i* ]] && return
-[[ -z "$TMUX" ]] && exec tmux
