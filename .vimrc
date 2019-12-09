@@ -24,3 +24,8 @@ syntax enable
 
 " Enable detection, plugin, indent
 filetype plugin indent on
+
+" Set tree style listing
+let g:netrw_liststyle = 3
+" Open the file by open previous window when browsing
+let g:netrw_browse_split = 4
