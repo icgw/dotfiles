@@ -18,3 +18,9 @@ source $MYVIM/defaults.vim
 colorscheme molokai
 " Match the original monokai background color
 let g:molokai_original = 1
+
+" Switch on syntax highlight
+syntax enable
+
+" Enable detection, plugin, indent
+filetype plugin indent on
