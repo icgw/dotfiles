@@ -19,3 +19,8 @@ set splitright
 
 " Display special character
 set list listchars=tab:▸-,eol:↩︎,trail:␣,extends:»,precedes:«,nbsp:%
+
+" Set the content of status line
+set statusline=%F%m%r%h%w%=\ %y\ %{\"\".(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\"+\":\"\").\"\"}\ (%{&ff})\ [ascii=%03.3b,\ hex=%02.2B]\ %l,%v\ [%p%%]\ [lines=%L]
+" Always display the status line
+set laststatus=2
