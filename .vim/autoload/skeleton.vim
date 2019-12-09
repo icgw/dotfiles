@@ -25,7 +25,8 @@ endfunction
 
 function! s:ExpandVariables()
   let l:date    = strftime("%b %d, %Y")
-  let l:file    = expand("%")
+  let l:file    = expand("%:t")
+  let l:guard   = '_' . toupper(substitute(l:file, "[^a-zA-Z0-9]", "_", "g")) . '_'
   let l:license = exists("g:license") ? g:license : 'MIT'
   let l:mail    = exists("g:email") ? g:email : (l:user . '@' . hostname())
   let l:user    = exists("g:user") ? g:user : $USER
@@ -33,6 +34,7 @@ function! s:ExpandVariables()
 
   call s:Expand("DATE", l:date)
   call s:Expand("FILE", l:file)
+  call s:Expand("GUARD", l:guard)
   call s:Expand("LICENSE", l:license)
   call s:Expand("MAIL", l:mail)
   call s:Expand("USER", l:user)

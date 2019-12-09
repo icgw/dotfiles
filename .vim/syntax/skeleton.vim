@@ -11,7 +11,7 @@ endif
 let b:current_syntax = "skeleton"
 
 " Highlight the skeleton varaible
-syntax match skeletonVariable "%\(DATE\|FILE\|HERE\|LICENSE\|MAIL\|USER\|YEAR\)%" containedin=ALL
+syntax match skeletonVariable "%\(DATE\|FILE\|GUARD\|HERE\|LICENSE\|MAIL\|USER\|YEAR\)%" containedin=ALL
 
 " Define the default highlighting
 highlight default link skeletonVariable Constant

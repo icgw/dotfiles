@@ -1,4 +1,4 @@
-" Configuration file for vim
+" Configuration file for Vim
 "
 " Maintainer:  Guowei Chen <icgw@outlook.com>
 " Last Change: Dec 09, 2019
