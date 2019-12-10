@@ -8,14 +8,14 @@
 set encoding=utf-8 nobomb
 " Set the character encoding for the file
 set fileencoding=utf-8 nobomb
+" Set the character encoding for the terminal
+set termencoding=utf-8 nobomb
 
 " Show all line number
 set number
 
-" Split a new window below the current one
-set splitbelow
-" Split a new window right of the current one
-set splitright
+" Split a new window below and right of  the current one
+set splitbelow splitright
 
 " Display special character
 set list listchars=tab:▸-,eol:↩︎,trail:␣,extends:»,precedes:«,nbsp:%
@@ -24,3 +24,19 @@ set list listchars=tab:▸-,eol:↩︎,trail:␣,extends:»,precedes:«,nbsp:%
 set statusline=%F%m%r%h%w%=\ %y\ %{\"\".(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\"+\":\"\").\"\"}\ (%{&ff})\ [ascii=%03.3b,\ hex=%02.2B]\ %l,%v\ [%p%%]\ [lines=%L]
 " Always display the status line
 set laststatus=2
+
+" Raise a dialog asking if you wish to save the current file(s)
+set confirm
+
+" Set highlighting cursorline and cursorcolumn
+set cursorline cursorcolumn
+
+" Set textwidth 120 and highlight column after 'textwidth'
+set textwidth=120
+set colorcolumn=+1
+
+" Set 7 lines to the cursor - when moving vertically using j/k
+set scrolloff=7
+
+" Set the value of 'titlestring' on the window
+set title
