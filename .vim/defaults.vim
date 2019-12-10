@@ -40,3 +40,9 @@ set scrolloff=7
 
 " Set the value of 'titlestring' on the window
 set title
+
+" Press <Tab> to invoke completion, the possible matches are shown just above the command line
+set wildmenu
+
+" Search while typeing a character
+set incsearch
