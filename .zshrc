@@ -1,6 +1,9 @@
 # path to oh-my-zsh installation
 export ZSH="${HOME}/.oh-my-zsh"
 
+# invoke GPG-Agent
+export GPG_TTY=$(tty)
+
 ZSH_THEME="robbyrussell"
 
 # load the plugins
