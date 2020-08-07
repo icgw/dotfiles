@@ -2,6 +2,6 @@
 	name = Guowei Chen
 	email = icgw@outlook.com
 [core]
-	editor = nvim
+	editor = vim
 	excludesfile = ~/.gitignore_global
 	autocrlf = input
