@@ -1,6 +1,7 @@
 [user]
 	name = Guowei Chen
 	email = icgw@outlook.com
+	signingkey = 80A74DEE7D2B8368
 [core]
 	editor = vim
 	excludesfile = ~/.gitignore_global
