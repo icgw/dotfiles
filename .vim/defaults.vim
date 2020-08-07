@@ -4,6 +4,9 @@
 " Last Change: Dec 09, 2019
 " vim: et ts=2 sts=2 sw=2 tw=78 ft=vim fenc=utf-8
 
+" Switch on syntax highlight
+syntax enable
+
 " Set the character encoding used inside Vim
 set encoding=utf-8 nobomb
 " Set the character encoding for the file

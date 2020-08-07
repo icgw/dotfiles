@@ -15,29 +15,10 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
-call plug#begin('~/.vim/plugged')
-Plug 'airblade/vim-gitgutter'
-Plug 'godlygeek/tabular'
-Plug 'scrooloose/nerdcommenter'
-Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
-Plug 'terryma/vim-multiple-cursors'
-Plug 'tpope/vim-fugitive'
-Plug 'w0rp/ale'
-call plug#end()
-
 " Get the path of my configuration file for vim
 let $MYVIM = $HOME . '/.vim/'
 
-" Get the defaults that most users want
+" Get the configure file we want
 source $MYVIM/defaults.vim
-
-" Load color scheme molokai
-colorscheme molokai
-" Match the original monokai background color
-let g:molokai_original = 1
-
-" Switch on syntax highlight
-syntax enable
-
-" Enable detection, plugin, indent
-filetype plugin indent on
+source $MYVIM/config/init.vimrc
+source $MYVIM/config/plugins.vimrc
