@@ -4,20 +4,10 @@
 
 > The dotfiles of Guowei Chen.
 
-## Install
-
-This project uses [curl](https://curl.haxx.se/). Go check them out if you don't have them locally installed.
-
-```sh
-$ sudo apt-get install curl
-```
-
 ## Usage
 
-This is only a dotfiles package, including some configurations.
-
 ```sh
-$ curl -sL https://raw.githubusercontent.com/icgw/dotfiles/master/ubuntu_16_04.sh | sh
+$ wget "" -O temp.zip && unzip temp.zip && rm temp.zip && mv ./dotfiles-master/.* ~/ && rm -rf dotfiles-master
 ```
 
 ## Maintainer
