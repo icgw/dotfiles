@@ -4,6 +4,9 @@ export ZSH="${HOME}/.oh-my-zsh"
 # invoke GPG-Agent
 export GPG_TTY=$(tty)
 
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
 ZSH_THEME="robbyrussell"
 
 # load the plugins
