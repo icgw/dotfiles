@@ -20,5 +20,5 @@ let $MYVIM = $HOME . '/.vim/'
 
 " Get the configure file we want
 source $MYVIM/defaults.vim
-source $MYVIM/config/init.vimrc
-source $MYVIM/config/plugins.vimrc
+source $MYVIM/config/init.vim
+source $MYVIM/config/plugins.vim
