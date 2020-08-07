@@ -8,6 +8,23 @@ let g:user    = 'Guowei Chen'
 let g:email   = 'icgw@outlook.com'
 let g:license = "GPL"
 
+" auto install plug.vim
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
+call plug#begin('~/.vim/plugged')
+Plug 'airblade/vim-gitgutter'
+Plug 'godlygeek/tabular'
+Plug 'scrooloose/nerdcommenter'
+Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+Plug 'terryma/vim-multiple-cursors'
+Plug 'tpope/vim-fugitive'
+Plug 'w0rp/ale'
+call plug#end()
+
 " Get the path of my configuration file for vim
 let $MYVIM = $HOME . '/.vim/'
 
@@ -24,8 +41,3 @@ syntax enable
 
 " Enable detection, plugin, indent
 filetype plugin indent on
-
-" Set tree style listing
-let g:netrw_liststyle = 3
-" Open the file by open previous window when browsing
-let g:netrw_browse_split = 4
