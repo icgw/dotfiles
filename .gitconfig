@@ -6,3 +6,5 @@
 	editor = vim
 	excludesfile = ~/.gitignore_global
 	autocrlf = input
+[commit]
+	gpgsign = true
