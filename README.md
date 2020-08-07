@@ -9,7 +9,7 @@
 ```sh
 $ wget "https://github.com/icgw/dotfiles/archive/master.zip"\
  -O temp.zip && unzip temp.zip && rm temp.zip &&\
- mv ./dotfiles-master/.* ~/ && rm -rf dotfiles-master
+ mv ./dotfiles-master/.[^.]* ~/ && rm -rf dotfiles-master
 ```
 
 ## Maintainer
