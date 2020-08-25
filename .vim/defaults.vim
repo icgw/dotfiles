@@ -49,3 +49,6 @@ set wildmenu
 
 " Search while typeing a character
 set incsearch
+
+" Highlight all of matched text
+set hlsearch
