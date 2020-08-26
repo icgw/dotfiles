@@ -52,3 +52,9 @@ set incsearch
 
 " Highlight all of matched text
 set hlsearch
+
+set backspace=indent,eol,start
+
+" Place C++ scope declarations N characters from the indent of the block they
+" are in
+set cinoptions=g0
