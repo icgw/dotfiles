@@ -1,7 +1,12 @@
 [user]
 	name = Guowei Chen
 	email = icgw@outlook.com
+; Add GPG signing key, for example:
+; 	signingkey = 6B988F5F4B45E293
 [core]
 	editor = vim
 	excludesfile = ~/.gitignore_global
 	autocrlf = input
+; Set commigt gpg sign, for example:
+; [commit]
+; 	gpgsign = true
